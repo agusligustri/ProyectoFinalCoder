@@ -1,0 +1,38 @@
+#header {
+    background: $bg-color-header;
+	padding: 3px 0;
+
+	.toolbar {
+		background: $bg-color-header;
+		height: auto;
+
+		.logo-sm {
+			height: 40px;
+		}
+		
+		.logo-md {
+			height: 60px;
+		}
+		
+		.whatsapp-sm {
+			color: $font-color-header;
+			font-size: 1rem;
+		}
+		
+		.whatsapp-md {
+			color: $font-color-header;
+			font-size: 1.3rem;
+		}
+
+		.whatsapp-icon {
+			color: $font-color-whatsapp;
+			padding: 0 10px;
+		}
+	}
+}
+
+
+
+
+
+
