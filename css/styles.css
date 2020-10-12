@@ -1,8 +1,12 @@
 /** General **/
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
-  font-family:'Dosis', sans-serif;
+  box-sizing: border-box;
   
 }
 
@@ -11,6 +15,7 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   background-color: white;
+  
 }
 
 h1 {
@@ -275,11 +280,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #item-gallery {
-
-}
-
-#item-gallery .row {
-  
+  padding-bottom: 25px;
 }
 
 #item-gallery .row > h3 {
@@ -309,7 +310,6 @@ body::-webkit-scrollbar-thumb {
 #item-gallery .card .card-title {
   font-size: 1.6rem;
   text-align: center;
-  
 }
 
 #item-gallery .card .card-price {
@@ -335,3 +335,73 @@ body::-webkit-scrollbar-thumb {
   background-color: white;
   color: #3E7CB1;
 }
+
+#banner 
+{
+  background-color: #EAEAEA;
+  padding: 25px 0;
+}
+
+#banner .big,
+#banner .small {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.3);
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 767px) {
+  #banner .small:first-child {
+    margin-top: 30px;
+  }
+}
+
+#banner .small:last-child {
+  margin-top: 30px;
+}
+
+#banner .big {
+  height: 100%;
+}
+
+#banner .big:hover,
+#banner .small:hover {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.3);
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+#banner .big a,
+#banner .small a {
+  color: black;
+  text-decoration: none;
+}
+
+#banner .big p {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  height: calc(604px - 530px);
+  margin: 0;
+}
+
+#banner .small p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+
+#banner .img-big,
+#banner .img-small {
+  width: auto;
+  max-width: 100%;
+}
+
+
+
