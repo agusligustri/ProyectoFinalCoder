@@ -1,3 +1,13 @@
+/* PreLoader */
+    $(window).on('load', function () {
+        $(".loader").fadeOut();
+        $("#preloder").delay(200).fadeOut("slow");
+    });
+
+
+
+/* Navbar */
+
 jQuery(function($) {
     $(window).on('scroll', function() {
 		if ($(this).scrollTop() >= 200) {
@@ -33,12 +43,14 @@ jQuery(function($) {
 });
 
 
-$('.owl-carousel').owlCarousel({
+/* Carousels */
+$('.owl1').owlCarousel({
 	loop:true,
 	margin: 30,
 	nav:false,
 	dots:true,
 	autoplay:true,
+	autoplayHoverPause: true,
 	responsive:{
 		0:{
 			items:2
@@ -51,3 +63,25 @@ $('.owl-carousel').owlCarousel({
 		}
 	}
 })
+
+$('.owl2').owlCarousel({
+	loop:true,
+	margin:20,
+	autoplay:true,
+	autoplayHoverPause: true,
+	autoplayTimeout: 3000,
+	dots: false,
+	responsive:{
+		0:{
+			items:2
+		},
+		600:{
+			items:3
+		},
+		1000:{
+			items:5
+		}
+	}
+})
+
+
