@@ -4,8 +4,6 @@
         $("#preloder").delay(200).fadeOut("slow");
     });
 
-
-
 /* Navbar */
 
 jQuery(function($) {
