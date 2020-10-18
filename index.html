@@ -4,95 +4,51 @@
         <!-- Meta -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-          
-        <title>Scott Store</title>
+        <title>Scott Store || Tienda de Bicicletas</title>
         <meta name="description" content="Tienda de bicicletas y accesorios Scott - Syncros. Distribuidores Oficiales. Pagá en cuotas y sin moverte de tu casa. Envios a Todo el País. ¡Ingresá Ahora!">
 	    <meta name="keywords" content="TIENDA SCOTT, BICICLETAS SCOTT, SCOTT, SYNCROS, BICICLETAS, BICIS, RUTA, RUTERA, RODADO, 26, 27.5, 29, SPARK, SCALE, ASPECT, ADDICT, SPEEDSTER, CONTESSA, PRECIOS, OFERTAS, ZONA OESTE, BUENOS AIRES, ARGENTINA, CARBONO, SHIMANO, SRAM, MAXXIS, MITAS, MONOPLATO, BIPLATO">
-
         <!-- Favicon -->
 	    <link href="images/general/favicon.png" rel="icon" type="image/png" />
-	
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Kanit:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
         <!-- Vendor CSS Files -->
         <link rel="stylesheet" href="vendor/owlcarousel/css/owl.carousel.min.css">
         <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="vendor/magnificpopup/css/magnificpopup.css">
         <!-- Template Main CSS File -->
         <link rel="stylesheet" href="css/styles.css">
     </head>
-
    <body>
-
         <!-- Page Preloder -->
         <div id="preloder">
             <div class="loader"></div>
         </div>
-
+        <!-- Header w/Navbar -->
         <header class="header-area overlay">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container">
                     <img src="./images/general/logo.png" class="navbar-logo" alt="scott_logo">
-                    
                     <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
                         <span class="menu-icon-bar"></span>
                         <span class="menu-icon-bar"></span>
                         <span class="menu-icon-bar"></span>
                     </button>
-                    
                     <div id="main-nav" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
                             <li><a href="index.html" class="nav-item nav-link active">Inicio</a></li>
-                            <li class="dropdown">
-                                <a href="bicicletas.html" class="nav-item nav-link" data-toggle="dropdown">Bicicletas</a>
-                                <div class="dropdown-menu">
-                                    <a href="bicicletas.html#mountainbike" class="dropdown-item">Mountain Bike</a>
-                                    <a href="bicicletas.html#ruta" class="dropdown-item">Ruta</a>
-                                    <a href="bicicletas.html#kids" class="dropdown-item">Kids</a>
-                                </div>
-                            </li>
-                            <li class="dropdown">
-                                <a href="accesorios.html" class="nav-item nav-link" data-toggle="dropdown">Accesorios</a>
-                                <div class="dropdown-menu">
-                                    <a href="accesorios.html#asientos" class="dropdown-item">Asientos</a>
-                                    <a href="accesorios.html#caramagnolas" class="dropdown-item">Caramagnolas</a>
-                                    <a href="accesorios.html#entrenadores" class="dropdown-item">Entrenadores</a>
-                                    <a href="accesorios.html#cascos" class="dropdown-item">Cascos</a>
-                                    <a href="accesorios.html#computadoras" class="dropdown-item">Computadoras</a>
-                                    <a href="accesorios.html#cubiertas" class="dropdown-item">Cubiertas</a>
-                                    <a href="accesorios.html#manubrios" class="dropdown-item">Horquillas</a>
-                                    <a href="accesorios.html#manubrios" class="dropdown-item">Manubrios</a>
-                                    <a href="accesorios.html#pedales" class="dropdown-item">Pedales</a>
-                                    <a href="accesorios.html#portacaramagnola" class="dropdown-item">Portacaramagnola</a>
-                                    <a href="accesorios.html#puños" class="dropdown-item">Puños</a>
-                                    <a href="accesorios.html#stem" class="dropdown-item">Stem</a>
-                                </div>
-                            </li>
-                            <li class="dropdown">
-                                <a href="indumentaria.html" class="nav-item nav-link" data-toggle="dropdown">Indumentaria</a>
-                                <div class="dropdown-menu">
-                                    <a href="indumentaria.html#calzas" class="dropdown-item">Calzas</a>
-                                    <a href="indumentaria.html#camperas" class="dcontentropdown-item">Camperas</a>
-                                    <a href="indumentaria.html#guantes" class="dropdown-item">Guantes</a>
-                                    <a href="indumentaria.html#lentes" class="dropdown-item">Lentes</a>
-                                    <a href="indumentaria.html#medias" class="dropdown-item">Medias</a>
-                                    <a href="indumentaria.html#remeras" class="dropdown-item">Remeras</a>
-                                    <a href="indumentaria.html#zapatillas" class="dropdown-item">Zapatillas</a>
-                                </div>
-                            </li>
+                            <li><a href="bicicletas.html" class="nav-item nav-link">Bicicletas</a></li>
+                            <li><a href="accesorios.html" class="nav-item nav-link">Accesorios</a></li>
+                            <li><a href="indumentaria.html" class="nav-item nav-link">Indumentaria</a></li>
                             <li><a href="contacto.html" class="nav-item nav-link">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-    
+        <!-- Main -->
         <main>
+            <!-- Slider -->
             <section id="main-slider" class="d-lg-none">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -133,11 +89,11 @@
                   </a>
                 </div>
             </section>
-
+            <!-- Main Video -->
             <section id="main-video">
                 <video src="videos/mainvideo.mp4" class="d-none d-lg-inline" type="video/mp4" autoplay loop muted>
             </section>
-
+            <!--Info Bar-->
             <section id="info_bar" class="d-flex">
                 <div class="d-none d-md-flex col-md-6 col-lg-4 justify-content-center align-items-center">
                     <i class="fas fa-shipping-fast fa-2x"></i>
@@ -160,93 +116,213 @@
                         <p>Ahora 12 y Ahora 18</p>
                     </div>
                 </div>
-            </section>
-
-            <section id="tu-proxima-scott" class="item-carousel">
-                <div class="container">
-                    <div class="row">
-                        <h5>TU PRÓXIMA SCOTT</h5>
-                        <div class="container owl1 owl-carousel owl-theme">
-                            <a href="#!">
+            </section>        
+            <section id="tu-proxima-scott">
+                <!-- Bikes Carousel --> 
+                <div class="item-carousel">
+                    <div class="container">
+                        <div class="row">
+                            <h5>TU PRÓXIMA SCOTT</h5>
+                            <div class="container owl1 owl-carousel owl-theme">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/910_min.jpg" alt="aspect910_min">
+                                    <img class="card-img-top" src="./images/bicicletas/mtb/scale-rc-wc-2020-300x300.jpg" alt="Scale RC 900 WC">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 910 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Scott Scale RC 900 World Cup</p>
+                                        <p class="card-price">$1.190.430,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bike-carousel-1">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#!">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/920_min.jpg" alt="aspect920_min">
+                                    <img class="card-img-top" src="./images/bicicletas/mtb/aspect-960-300x300.jpg" alt="Aspect 960">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 920 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Scott Aspect 960</p>
+                                        <p class="card-price">$104.754,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bike-carousel-2">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#!">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/930pearlwhite.jpg" alt="aspect930_pearlwhite_min">
+                                    <img class="card-img-top" src="./images/bicicletas/ruta/foil-rc-300x300.jpg" alt="Foil RC">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 930 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Scott Foil RC</p>
+                                        <p class="card-price">$876.633,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bike-carousel-3">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#!">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/940granite.jpg" alt="aspect940_granite_min">
+                                    <img class="card-img-top" src="./images/bicicletas/tria/plasma-10-300x300.jpg" alt="plasma-10-300x300">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 940 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Scott Plasma 10</p>
+                                        <p class="card-price">$853.040,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bike-carousel-4">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Bikes Modals -->
+                <div id="bike-carousel-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100"src="./images/bicicletas/mtb/scale-rc-wc-2020.jpg" alt="Scale RC 900 WC">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">SCOTT Scale RC 900 World Cup</h3>
+                                        <div class="description">
+                                            <p> Para aspirar al título mundial hace falta una máquina de calidad mundial. 
+                                                Ligera, rígida y rápida; esto es lo que te ofrece la Scale RC 900 World Cup. 
+                                                Repleta de componentes de calidad y con toda la magia del carbono, con la World Cup 
+                                                dejarás de ser el seguidor número uno de Nino Schurter para quizás pasar a disputar el 
+                                                maillot de líder. La bicicleta está preparada; ¿y tú? El tiempo lo dirá.</p>
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Cuadro Scale RC de carbono HMX</li>
+                                                <li>RockShox SID SL Select+RL3 100 mm</li>
+                                                <li>Control remoto RideLoc con 3 posiciones</li>
+                                                <li>SRAM X01 Eagle, 12 velocidades</li>
+                                                <li>Frenos de disco SRAM Level TLM</li>
+                                                <li>Ruedas de carbono Syncros Silverton 1.0</li>
+                                                <li>Cubiertas Maxxis Rekon Race Kevlar</li>
+                                                <li>Componentes de carbono Syncros</li>
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
+                <div id="bike-carousel-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/bicicletas/mtb/aspect-960.jpg" alt="Aspect 960">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">SCOTT Aspect 960</h3>
+                                        <div class="description">
+                                            <p>La Aspect 960 de SCOTT es una bicicleta de montaña rígida sin suspensión trasera, diseñada para ser ligera, eficaz y con un precio razonable. Los frenos son de disco y los componentes de Syncros. Es el modelo perfecto para principiantes o para usuarios de bicicleta de montaña que se guíen por el presupuesto.</p>
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Cuadro de aleación Aspect 700/900</li>
+                                                <li>Horquilla Suntour XCE28 100 mm</li>
+                                                <li>Shimano Tourney TX, 24 velocidades</li>
+                                                <li>Frenos de disco hidráulicos Tektro</li>
+                                                <li>Kenda Booster</li>     
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
+                <div id="bike-carousel-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/bicicletas/ruta/foil-rc.jpg" alt="Foil RC">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">SCOTT Foil RC</h3>
+                                        <div class="description">
+                                            <p>Con victorias en etapas de todas las grandes vueltas, triunfos en clásicas como la Milán-San Remo, Lieja Bastogne-Lieja y París-Roubaix, podemos decir con total seguridad que la FOIL es la bicicleta aerodinámica más polivalente del mercado. Hemos diseñado el cuadro de fibra de carbono HMX para ayudarte a arañar esos valiosos segundos. Es uno de los cuadros más ligeros en el segmento de aerodinámicos. La SCOTT FOIL RC es una réplica de la del equipo Orica-SCOTT. Con un sistema de manillar integrado Syncros y componentes de carbono Syncros, esta bicicleta está diseñada para ayudarte a ganar todas las carreras.</p>
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Cuadro de carbono FOIL HMX</li>
+                                                <li>Horquilla FOIL HMX</li>
+                                                <li>Transmisión Shimano Dura-Ace, 22 velocidades</li>
+                                                <li>Ruedas Zipp 30 Course</li>
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
+                <div id="bike-carousel-4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/bicicletas/tria/plasma-10.jpg" alt="Plasma 10">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">SCOTT Plasma 10</h3>
+                                        <div class="description">
+                                            <p>La Plasma 10 de SCOTT tiene un diseño muy similar al del modelo Plasma Team Issue. La Plasma 10 es una mejora creada sobre modelos anteriores que presenta un increíble nivel de ajustabilidad e integración, incluye espacio para llevar alimentos, y además a un precio asequible.</p>
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Cuadro Plasma 4 Carbon</li>
+                                                <li>Shimano Ultegra, 22 velocidades</li>
+                                                <li>Llantas Syncros Race 22</li>
+                                                <li>Cubiertas Continental Grand Sport Race</li>
+                                                <li>Componentes de carbono • aleación Profile</li>
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
             </section>
-
+            <!-- Hover Banner-->
             <section id="banner">
                 <div class="container">
                     <div class="row flex-wrap">
                         <div class="col-12 col-md-6">
                             <div class="big">
                                 <a href="indumentaria.html">
-                                    <img src="./images/index/banner/indumentaria2.jpg" class="img-big" alt="indumentaria">
+                                    <img src="./images/index/banner/indumentaria.jpg" class="img-big" alt="indumentaria">
                                     <p>INDUMENTARIA</p>
                                 </a>
                             </div>   
                         </div>
-
                         <div class="col-6 col-md-3">
                             <div class="small">
-                                <a href="indumentaria.html#cascos">
-                                    <img src="./images/index/banner/cascos2.jpg" class="img-small" alt="cascos">
+                                <a href="indumentaria.html">
+                                    <img src="./images/index/banner/cascos.jpg" class="img-small" alt="cascos">
                                     <p>CASCOS</p>
                                 </a>
                             </div>
                             <div class="small">
-                                <a href="indumentaria.html#lentes">
-                                    <img src="./images/index/banner/lentes2.jpg" class="img-small" alt="lentes">
+                                <a href="indumentaria.html">
+                                    <img src="./images/index/banner/lentes.jpg" class="img-small" alt="lentes">
                                     <p>LENTES</p>
                                 </a>
                             </div>    
                         </div>
                         <div class="col-6 col-md-3">
                             <div class="small">
-                                <a href="indumentaria.html#zapatillas">
-                                    <img src="./images/index/banner/zapatillas2.jpg"  class="img-small" alt="zapatillas">
+                                <a href="indumentaria.html">
+                                    <img src="./images/index/banner/zapatillas.jpg"  class="img-small" alt="zapatillas">
                                     <p>ZAPATILLAS</p>
                                 </a>
                             </div>
                             <div class="small">
-                                <a href="accesorios.html#cubiertas">
+                                <a href="accesorios.html">
                                     <img src="./images/index/banner/cubiertas.jpg"  class="img-big" alt="cubiertas">
                                     <p>CUBIERTAS</p>
                                 </a>
@@ -261,67 +337,183 @@
                        
                                 
             </section>
-                       
-            <section id="mas-buscados" class="item-carousel">
-                <div class="container">
-                    <div class="row">
-                        <h5>LOS MÁS SOLICITADOS</h5>
-                        <div class="container owl1 owl-carousel owl-theme">
-                            <a href="#!">
+            <section id="mas-buscados">
+                <!-- Most Wanted Carousel-->
+                <div class="item-carousel">
+                    <div class="container">
+                        <div class="row">
+                            <h5>LOS MÁS SOLICITADOS</h5>
+                            <div class="container owl1 owl-carousel owl-theme">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/910_min.jpg" alt="aspect910_min">
+                                    <img class="card-img-top" src="images/indumentaria/cascos/scott-cadence-300x300.jpg" alt="Casco Scott Cadence">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 910 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Casco Scott Cadence</p>
+                                        <p class="card-price">$25.781,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#most-wanted-1">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#!">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/920_min.jpg" alt="aspect920_min">
+                                    <img class="card-img-top" src="images/indumentaria/jerseys/jerser-scott-premium-300x300.jpg" alt="Jersey Scott Premium">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 920 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Jersey Scott Premium</p>
+                                        <p class="card-price">$4.180,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#most-wanted-2">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#!">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/930pearlwhite.jpg" alt="aspect930_pearlwhite_min">
+                                    <img class="card-img-top" src="images/accesorios/caramagnolas/camelbak-chillrace-650ml-300x300.jpg" alt="Camelbak Chill Race 650ml">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 930 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Camelback Chill Race 650ml</p>
+                                        <p class="card-price">$2.230,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#most-wanted-3">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                            <a href="#!">
                                 <div class="card">
-                                    <img class="card-img-top" src="./images/bicicletas/aspect/940granite.jpg" alt="aspect940_granite_min">
+                                    <img class="card-img-top" src="images/accesorios/cubiertas/mitas-zefyros-300x300.jpg" alt="Mitas Zefyros">
                                     <div class="card-body">
-                                        <p class="card-title">Scott Aspect 940 (2021)</p>
-                                        <p class="card-price">$110.000</p>
-                                        <button class="btn btn-primary">Más Info</button>
+                                        <p class="card-title">Mitas Zefyros TDI Extra 29x2.25</p>
+                                        <p class="card-price">$8.629,00</p>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#most-wanted-4">Más Info</button>
                                     </div>
                                 </div>
-                            </a>
-                               
-                               
 
-
+                                
+                         
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Most Wanted Modals -->
+                <div id="most-wanted-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/indumentaria/cascos/scott-cadence.jpg" alt="Casco Scott Cadence">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">Casco Scott Cadence</h3>
+                                        <div class="description">
+                                            <p>El Cadence PLUS se ha diseñado y desarrollado para nuestros ciclistas de carretera y triatletas de élite. Hemos aplicado nuestros amplios conocimientos técnicos en aerodinámica para fabricar uno de los cascos más rápidos y ventilados de su categoría. Para ello hemos optimizado el flujo de aire tanto por fuera como por dentro del casco. El sistema MIPS con tecnología SCOTT AIR ofrece las ventajas del sistema de protección encefálica MIPS e incluye un diseño exclusivo que mejora aún más la ventilación. Con el Cadence PLUS, mantendrás la cabeza fría… y protegida.</p>
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Uso: Carretera</li>
+                                                <li>Construcción: Tecnología en molde,Microcapa externa en PC</li>
+                                                <li>Ajuste Sistema: HALO</li>
+                                                <li>Diseño aerodinámico optimizado</li>
+                                                <li>MIPS con tecnología SCOTT AIR</li>
+                                                <li>Ventilación optimizada</li>
+                                                <li>Acolchado antibacteriano X-Static</li>
+                                                <li>Tapones para invierno</li>
+                                                <li>Peso Aproximado: 270g</li>
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
+                <div id="most-wanted-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/indumentaria/jerseys/jerser-scott-premium.jpg" alt="Jersey Scott Premium">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">Jersey Scott Premium</h3>
+                                        <div class="description">
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Confeccionada con materiales de altísima calidad</li>
+                                                <li>El jersey SCOTT PREMIUM posee bolsillos traseros y cierre escondido.</li>
+                                                <li>Disponible en talles S – M – L -XL y XXL</li>
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
+                <div id="most-wanted-3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/accesorios/caramagnolas/camelbak-chillrace-650ml.jpg" alt="Camelbak Chill Race 650ml">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">Camelback Chill Race 650ml</h3>
+                                        <div class="description">
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
+                <div id="most-wanted-4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myHugeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <img class="w-100" src="images/accesorios/cubiertas/mitas-zefyros.jpg" alt="Mitas Zefyros">  
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-4">
+                                        <h3 class="text-center">Mitas Zefyros TDI Extra 29x2.25</h3>
+                                        <div class="description">
+                                            <h5>Características Principales</h5>
+                                            <ul>
+                                                <li>Rodado 29</li>
+                                                <li>Ancho 2.25</li>
+                                                <li>ETRTO: 57-584</li>
+                                                <li>127 TPI</li>
+                                                <li>55 PSI</li>
+                                                <li>Carga Max: 136 Kg</li>
+                                                <li>Excelente Grip y Conducción Segura</li>
+                                                <li>Aro de Kevlar flexible reforzados con Tecnología TSS + TEXTRA</li>
+                                                <li>Construcción Tubeless Supra</li>
+                                                <li>Compuesto: Carbon Race Extreme Compound Light (CRX)</li>
+                                                <li>Tejido con hilos de polímero de alta densidad</li>
+                                                <li>Para Terrenos Livianos y Duros</li>
+                                                <li>Categoría: MTB/ XC/ XMC</li>
+                                                <li>Muy Livianas</li>
+                                                <li>Peso: 660 gr</li>
+                                                <li>Hecho en República Checa</li>
+                                            </ul>
+                                            <div class="d-flex justify-content-center">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>    
+                        </div> 
+                    </div>
+                </div>
             </section>
-                            
+            <!-- Service Banner -->            
             <section id="banner_service">
                 <img src="./images/index/slider-central-solo.jpg" alt="Banner Mantenimiento">
                 <h1>SERVICE RACING</h1>
                 <h3>DEJÁ TU BICICLETA COMO EL PRIMER DIA</h3>
             </section>
-
+            <!-- Brand Carousel-->
             <section id="brand-carousel">
                 <div class="container">
                     <div class="row">
@@ -370,7 +562,7 @@
                 </div>
             </section>
         </main>
-        
+        <!-- Footer -->
         <footer id="footer">
             <div class="footer-top">
                 <div class="container">
@@ -462,18 +654,16 @@
                 </div>
             </div>
           </footer>
-
+        <!--Fixed Whatsapp-->
         <div id="whatsapp-button" class="d-flex flex-wrap justify-content-center align-content-center">
 			<a href="https://wa.me/5491130139573" target="_blank">
             <i class="fab fa-lg fa-whatsapp"></i>
 		</div>
-
     <!-- Vendor JS Files -->
     <script src="vendor/jquery/jquery-3.5.1.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/owlcarousel/js/owl.carousel.min.js"></script>
     <script src="vendor/fontawesome/js/all.min.js"></script>
-
     <!-- Template Main JS File -->
     <script src="js/main.js"></script>
 </body>
